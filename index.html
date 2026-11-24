@@ -6,13 +6,6 @@
     <title>Reloj</title>
 </head>
 <style>
-body{
-    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzZldmh2ZHQ3cGtlZzNhMDJobXo0d2IzMWZzMHk4YnNpeW1ncHJmbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/CkBzt6qXCCXw4/giphy.gif);
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .clock-container{
     background-color: rgba(26, 52, 54,0.75);
     margin-top: 400px;
@@ -45,13 +38,19 @@ body{
     text-transform: uppercase;
 }
 
-/* Adds a subtle ticking indicator animation to the colons */
 @keyframes blink {
     50% { opacity: 0.3; }
 }
-
+img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+}
 </style>
 <body>
+    <img src=https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3Rhemh0YXE2ZWw0d3VtM3d3NGtyOWoyeTFxenpncjlvMzI2dWN0MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/12wteMTXxjLaVO/giphy.gif>
     <center>
     <div class="clock-container">
         <div class="clock">
